@@ -1,12 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://cbsrjmnlyj28k"]
+[gd_scene load_steps=3 format=3 uid="uid://cbsrjmnlyj28k"]
 
 [ext_resource type="PackedScene" uid="uid://bl4bvgf3td4f3" path="res://scenes/residue.tscn" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://btd7wafbf1f55" path="res://scripts/residue.gd" id="2_0wfyh"]
 
 [node name="main" instance=ExtResource("1_o5qli")]
+
+[node name="residue" parent="." index="0"]
+script = ExtResource("2_0wfyh")
+type = "H"
 
 [node name="Circle" parent="residue" index="0"]
 position = Vector2(-1.99999, 0.499988)
 scale = Vector2(0.115741, 0.115885)
+script = null
 
 [node name="CollisionShape2D" parent="residue" index="2"]
 position = Vector2(0, -1)
