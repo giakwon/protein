@@ -4,6 +4,6 @@
 assets/
 scenes/
 scripts/
-icon.svg.import/
-icon.svg/
-project.godot/
+icon.svg.import
+icon.svg
+project.godot
