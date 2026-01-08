@@ -1,5 +1,15 @@
-# Welcome to Lattice Protein Game!
-This project explores lattice-based protein folding using a genetic algorithm. It includes both a lattice enumerator in C++ and Python scripts for evaluating and visualizing GA performance.
+# Welcome to miniFoldit
+miniFoldit explores lattice-based protein folding using a genetic algorithm. It includes both a lattice enumerator in C++ and Python scripts for evaluating and visualizing GA performance.
+
+## Publication
+This project was developed during a Research Experience for Undergraduates (REU) with
+Rosetta Commons, in collaboration with the Cooper Lab at Northeastern University.
+
+The work was accepted as a peer-reviewed paper at the Experimental AI in Games (EXAG) Workshop at AI for Interactive Digital Entertainment conference (AIIDE) 2025:
+
+> **Generating Three-Star System Puzzles using Solution Enumeration Fitness for a Lattice Protein Folding Game**  
+> Experimental AI in Games (EXAG) Workshop, AIIDE 2025  
+> [PDF](https://ceur-ws.org/Vol-4090/short3.pdf)
 
 ## Repository Structure
 - frontend/        D3.js visualization
