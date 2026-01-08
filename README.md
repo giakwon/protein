@@ -8,7 +8,7 @@ This project explores lattice-based protein folding using a genetic algorithm. I
 - frontend/lattice-enum/  C++ lattice enumerator
 
 
-### Installation Instructions
+## Installation Instructions
 1. Clone the repository:
    ```bash
    git clone https://github.com/giakwon/protein.git
@@ -26,7 +26,7 @@ This project explores lattice-based protein folding using a genetic algorithm. I
    ```
 
 
-### How to Run Algorithms
+## How to Run Algorithms
 1. Go to ```dev``` directory in a Pipenv shell:
    ```bash
    pipenv shell
@@ -41,7 +41,7 @@ This project explores lattice-based protein folding using a genetic algorithm. I
     python3 max_fitness.py
    ```
 
-### How to Run Frontend
+## How to Run Frontend
   1. From the repository root un:
      ```bash
      python3 -m http.server 8000
